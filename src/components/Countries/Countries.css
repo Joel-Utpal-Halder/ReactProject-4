@@ -1,0 +1,19 @@
+.countries {
+    background-color: rgb(43, 44, 52);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap : 20px;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+
+/* # Lecture : Responsive design, Build react app and project host in netlify */
+/* Search 'break points' to know the breakpoints to make respopnsive */
+@media screen and (max-width: 600px)  {
+    .countries {
+        grid-template-columns: repeat(1, 1fr);
+    } 
+};
+
+
